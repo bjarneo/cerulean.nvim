@@ -4,18 +4,18 @@ local M = {}
 -- Color palette
 M.colors = {
 	-- Base colors
-	bg = "#0F354D",
+	bg = "#082536",
 	fg = "#FFF9AF",
 
 	-- UI colors
-	bg_alt = "#1C6EA4",
-	bg_highlight = "#1C6EA4",
-	bg_visual = "#1C6EA4",
-	border = "#1C6EA4",
+	bg_alt = "#196E9F",
+	bg_highlight = "#196E9F",
+	bg_visual = "#196E9F",
+	border = "#196E9F",
 
 	-- Syntax colors
-	comment = "#1C6EA4",
-	comment_alt = "#1C6EA4",
+	comment = "#196E9F",
+	comment_alt = "#196E9F",
 
 	-- Functions and methods
 	func = "#FFF9AF",
@@ -28,10 +28,10 @@ M.colors = {
 	string_regex = "#FFF9AF",
 
 	-- Keywords and control flow
-	keyword = "#33A1E0",
+	keyword = "#3DA5E1",
 
 	-- Types and classes
-	type = "#33A1E0",
+	type = "#3DA5E1",
 
 	-- Constants and numbers
 	constant = "#FFF9AF",
@@ -43,42 +43,42 @@ M.colors = {
 	property = "#FFF9AF",
 
 	-- Operators and punctuation
-	operator = "#33A1E0",
-	punctuation = "#1C6EA4",
+	operator = "#3DA5E1",
+	punctuation = "#196E9F",
 
 	-- Special colors
 	cursor = "#FFF9AF",
-	line_number = "#1C6EA4",
+	line_number = "#196E9F",
 	line_number_active = "#FFF9AF",
 
 	-- Diagnostic colors
-	error = "#1C6EA4",
+	error = "#3DA5E1",
 	warning = "#FFF9AF",
-	info = "#33A1E0",
-	hint = "#33A1E0",
+	info = "#3DA5E1",
+	hint = "#3DA5E1",
 
 	-- Git colors
-	git_add = "#33A1E0",
+	git_add = "#3DA5E1",
 	git_change = "#FFF9AF",
-	git_delete = "#1C6EA4",
-	git_ignore = "#1C6EA4",
+	git_delete = "#3DA5E1",
+	git_ignore = "#196E9F",
 
 	-- Terminal colors
-	terminal_black = "#0F354D",
-	terminal_red = "#1C6EA4",
-	terminal_green = "#33A1E0",
+	terminal_black = "#082536",
+	terminal_red = "#3DA5E1",
+	terminal_green = "#3DA5E1",
 	terminal_yellow = "#FFF9AF",
-	terminal_blue = "#1C6EA4",
-	terminal_magenta = "#1C6EA4",
-	terminal_cyan = "#33A1E0",
+	terminal_blue = "#3DA5E1",
+	terminal_magenta = "#3DA5E1",
+	terminal_cyan = "#3DA5E1",
 	terminal_white = "#FFF9AF",
-	terminal_bright_black = "#1C6EA4",
-	terminal_bright_red = "#33A1E0",
-	terminal_bright_green = "#33A1E0",
+	terminal_bright_black = "#196E9F",
+	terminal_bright_red = "#60B5E6",
+	terminal_bright_green = "#60B5E6",
 	terminal_bright_yellow = "#FFF9AF",
-	terminal_bright_blue = "#33A1E0",
-	terminal_bright_magenta = "#33A1E0",
-	terminal_bright_cyan = "#33A1E0",
+	terminal_bright_blue = "#60B5E6",
+	terminal_bright_magenta = "#60B5E6",
+	terminal_bright_cyan = "#60B5E6",
 	terminal_bright_white = "#FFF9AF",
 
 	-- Additional colors
